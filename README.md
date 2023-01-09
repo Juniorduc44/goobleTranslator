@@ -11,9 +11,11 @@
     </p>
 <div align="center">
 --> [https://github.com/TomSchimansky/CustomTkinter]<--
+#
+--> [https://beta.openai.com/docs/api-reference]<--
 
 Gooble Translator powered by GPT-3's A.I. language processing engine Text-Davinci-003
-    ![goobleTrans0](https://user-images.githubusercontent.com/86094465/211255401-070a6b85-48aa-4518-bcc8-b7025dc6fc39.png)
+![goobleTrans0](https://user-images.githubusercontent.com/86094465/211255401-070a6b85-48aa-4518-bcc8-b7025dc6fc39.png)
 
 # 
 # 
