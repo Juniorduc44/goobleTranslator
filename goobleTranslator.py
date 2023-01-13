@@ -19,7 +19,7 @@ def toggle():
     if a == True:
         gbTrans = optionmenu_2.get()
         if gbTrans in goobleValues:
-            openai.api_key = os.getenv('OPENAI_API_KEY')#using os module and .env didnt work for me
+            openai.api_key = os.getenv('OPENAI_API_KEY')
             response2 = openai.Completion.create(
                 engine = "text-davinci-003",
                 prompt = f"Write out the pronunciation of {G} using an {gbTrans} translated Phonetic Alphabet.",
@@ -36,7 +36,7 @@ def askGPT():
     gpLang = optionmenu_1.get()
     if gpLang in Values:  
         gpText1 = textbox1.get("0.0", "end")
-        openai.api_key = os.getenv('OPENAI_API_KEY')#using os module and .env didnt work for me
+        openai.api_key = os.getenv('OPENAI_API_KEY')
         response = openai.Completion.create(
             engine = "text-davinci-003",
             prompt = f"translate '{gpText1}' into {gpLang} language.",
