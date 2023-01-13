@@ -1,0 +1,2 @@
+#just delete the "(example)" portion of this file and us your own api key from openai.com
+OPENAI_API_KEY= <API_KEY>
