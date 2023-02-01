@@ -1,3 +1,4 @@
+# goobleTranslator v0.1.3
 import customtkinter
 import openai
 from dotenv import load_dotenv
